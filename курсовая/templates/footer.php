@@ -8,7 +8,7 @@
 		<footer>
 			<div class="company">
 				<h3>Компания</h3>
-				<a href="create_news_page.php">Новости</a><br>
+				<a href="gallery.php">Галерея</a><br>
 				<a href="vacancy.php">Вакансии</a><br>
 				<a href="stuff.php">Сотрудники</a>
 			</div>
