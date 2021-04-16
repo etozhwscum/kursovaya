@@ -14,7 +14,7 @@ if ($_SESSION['user']) {
 <body>
 	<?php require('templates/header.php');?>
 	<div class="login">
-		<h1>Login</h1>
+		<h1>Авторизация</h1>
 		<form action="vendor/signin.php" method="post">
         <p><input type="text" name="login" placeholder="Имя пользователя" required></p>
         <p><input type="password" name="password" placeholder="Пароль" required></p>
@@ -31,6 +31,7 @@ if ($_SESSION['user']) {
     	</form>
 	</div>
 	<br>
+    <?php require('templates/chat.php');?>
     <?php require('templates/footer.php');?>
 </body>
 </html>

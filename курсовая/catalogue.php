@@ -19,7 +19,7 @@
 			<li><a href="giftcards.php">Подарочные карты</a></li><br>
 		</ul>
 	</div>
-
+	<?php require('templates/chat.php');?>
 	<?php require('templates/footer.php');?>
 </body>
 </html>

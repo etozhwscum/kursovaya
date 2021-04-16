@@ -216,17 +216,15 @@ footer{
 	text-align: center;
 }
 .vacancies{
-	margin: auto;
-	display: block;
-	width: 800px;
-	text-align: justify;
-}
-.vacForm{
+	width: 100%;
 	text-align: center;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
 }
+.vacancyFormCreate{
+	width: 100%;
+	text-align: center;
+}
+	
+
 .title{
 	text-align: center;
 }
@@ -302,5 +300,22 @@ footer{
 	text-align: center;
 }
 .user{
+	text-align: center;
+}
+.gallery h1{
+	text-align: center;
+}
+.images{
+	margin: 0 auto;
+	width: 900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.chat{
+	margin-right: 3em;
+	text-align: right;
+}
+.news{
 	text-align: center;
 }

@@ -13,7 +13,7 @@
 <body>
     <?php require('templates/header.php');?>
     <div class="registration">
-        <h1>Registration</h1>
+        <h1>Регистрация</h1>
         <form action="vendor/signup.php" method="post" enctype="multipart/form-data">
         <p><input type="text" name="full_name" placeholder="ФИО" required></p>
         <p><input type="text" name="login" placeholder="Имя пользователя" required></p>
@@ -34,6 +34,7 @@
     </form>
     </div>
     <br>
+    <?php require('templates/chat.php');?>
    <?php require('templates/footer.php');?>
 </body>
 </html>
