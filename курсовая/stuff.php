@@ -60,6 +60,7 @@
 		</div>
 	</div>
 	<p></p>
+	<?php require('templates/chat.php');?>
 	<?php require('templates/footer.php');?>
 </body>
 </html>

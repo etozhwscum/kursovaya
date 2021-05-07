@@ -28,6 +28,7 @@
 		<p>Безналичным расчётом можно воспользоваться при курьерской доставке или самовывоза из магазина.</p>
 	</div>
 	<br>
+	<?php require('templates/chat.php');?>
 	<?php require('templates/footer.php');?>
 </body>
 </html>

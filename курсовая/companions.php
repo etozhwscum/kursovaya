@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Companions</title>
+	<title>Компаньоны</title>
 	<link rel="stylesheet" type="text/css" href="style/css.css">
 </head>
 <body>
@@ -35,6 +35,7 @@
 		</div>
 	</div>
 	<br>
+	<?php require('templates/chat.php');?>
 	<?php require('templates/footer.php');?>
 </body>
 </html>
